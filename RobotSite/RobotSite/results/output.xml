@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.15 on win32)" generated="2026-10-15T08:50:51.639365" rpa="false" schemaversion="5">
+<suite id="s1" name="BundID" source="C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot">
+<kw name="Open Browser" type="SETUP">
+<msg time="2026-10-15T08:50:51.751871" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>https://bund-a.pre.buergerserviceportal.de/en/</arg>
+<arg>edge</arg>
+<status status="FAIL" start="2026-10-15T08:50:51.751246" elapsed="0.000754">No keyword with name 'Open Browser' found.</status>
+</kw>
+<test id="s1-t1" name="login to BundID" line="33">
+<status status="FAIL" start="2026-10-15T08:50:51.752294" elapsed="0.000769">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-t2" name="Check Events Activity" line="88">
+<status status="FAIL" start="2026-10-15T08:50:51.753566" elapsed="0.000606">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-t3" name="Change Language" line="104">
+<status status="FAIL" start="2026-10-15T08:50:51.754619" elapsed="0.000526">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<test id="s1-t4" name="login via ELSTER certificate" line="121">
+<status status="FAIL" start="2026-10-15T08:50:51.755565" elapsed="0.000558">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2026-10-15T08:50:51.642572" elapsed="0.114413">Suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="BundID" id="s1" pass="0" fail="4" skip="0">BundID</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-10-15T08:50:51.743199" level="ERROR">Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\Kodjo Messie\Documents\Work Folder\.venv\Scripts\robot.exe
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313
+  c:\Users\Kodjo Messie\Documents\Work Folder\.venv
+  c:\Users\Kodjo Messie\Documents\Work Folder\.venv\Lib\site-packages</msg>
+<msg time="2026-10-15T08:50:51.744456" level="ERROR">Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 3: Library 'test_cases\utilities\sqm_robot_common_library.py' does not exist.</msg>
+<msg time="2026-10-15T08:50:51.745280" level="ERROR">Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 4: Library 'test_cases\utilities\sqm_robot_remote_call_library.py' does not exist.</msg>
+<msg time="2026-10-15T08:50:51.747627" level="ERROR">Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 5: Library 'test_cases\utilities\sqm_robot_login_library.py' does not exist.</msg>
+</errors>
+</robot>

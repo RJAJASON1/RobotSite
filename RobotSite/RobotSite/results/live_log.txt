@@ -1,0 +1,44 @@
+[ ERROR ] Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  c:\Users\Kodjo Messie\Documents\Work Folder\.venv\Scripts\robot.exe
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\Kodjo Messie\AppData\Local\Programs\Python\Python313
+  c:\Users\Kodjo Messie\Documents\Work Folder\.venv
+  c:\Users\Kodjo Messie\Documents\Work Folder\.venv\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 3: Library 'test_cases\utilities\sqm_robot_common_library.py' does not exist.
+[ ERROR ] Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 4: Library 'test_cases\utilities\sqm_robot_remote_call_library.py' does not exist.
+[ ERROR ] Error in file 'C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\uploads\BundID.robot' on line 5: Library 'test_cases\utilities\sqm_robot_login_library.py' does not exist.
+==============================================================================
+BundID                                                                        
+==============================================================================
+login to BundID                                                       | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open Browser' found.
+------------------------------------------------------------------------------
+Check Events Activity                                                 | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open Browser' found.
+------------------------------------------------------------------------------
+Change Language                                                       | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open Browser' found.
+------------------------------------------------------------------------------
+login via ELSTER certificate                                          | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open Browser' found.
+------------------------------------------------------------------------------
+BundID                                                                | FAIL |
+Suite setup failed:
+No keyword with name 'Open Browser' found.
+
+4 tests, 0 passed, 4 failed
+==============================================================================
+Output:  C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\results\output.xml
+Log:     C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\results\log.html
+Report:  C:\Users\Kodjo Messie\Documents\Robotframe\RobotSite\RobotSite\results\report.html
+
+END_OF_TEST

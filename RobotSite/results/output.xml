@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.1 on win32)" generated="2025-10-24T15:02:29.505867" rpa="false" schemaversion="5">
+<suite id="s1" name="Gmail" source="C:\Users\User\Documents\Brightchamps\Robotframe\RobotSite\uploads\gmail.robot">
+<test id="s1-t1" name="login to Gmail" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-24T15:02:30.887078" level="INFO">Opening browser 'edge' to base url 'https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fcontacts.google.com%2F&amp;followup=https%3A%2F%2Fcontacts.google.com%2F&amp;ifkv=AdBytiOkc9_YNDc8J9mhcBf5tvNLRea3YufdJ92L9cNp8uophyjzxvJ9SOjBC8bQRt7g0JI0oICMHA&amp;passive=1209600&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S725064225%3A1749630053814473'.</msg>
+<arg>https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fcontacts.google.com%2F&amp;followup=https%3A%2F%2Fcontacts.google.com%2F&amp;ifkv=AdBytiOkc9_YNDc8J9mhcBf5tvNLRea3YufdJ92L9cNp8uophyjzxvJ9SOjBC8bQRt7g0JI0oICMHA&amp;passive=1209600&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S725064225%3A1749630053814473</arg>
+<arg>edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-24T15:02:30.884269" elapsed="4.278758"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-10-24T15:02:35.164254" elapsed="2.287673"/>
+</kw>
+<kw name="Click element and Input">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2025-10-24T15:02:37.494863" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+</msg>
+<msg time="2025-10-24T15:02:37.495464" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+</msg>
+<arg>${locator1}</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2025-10-24T15:02:37.453999" elapsed="0.155377">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${locator1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-24T15:02:37.617567" elapsed="0.000122"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${locator2}</arg>
+<arg>${text}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-10-24T15:02:37.617964" elapsed="0.000074"/>
+</kw>
+<arg>//input[@jsname='YPqjbf']</arg>
+<arg>//input[@jsname='YPqjbf']</arg>
+<arg>jakerzoly@gmail.com</arg>
+<status status="FAIL" start="2025-10-24T15:02:37.453085" elapsed="0.165394">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+</status>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<arg>None</arg>
+<arg>RETURN</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" start="2025-10-24T15:02:37.618903" elapsed="0.000091"/>
+</kw>
+<kw name="Click element and Input">
+<arg>//input[@type='password']</arg>
+<arg>//input[@type='password']</arg>
+<arg>580267Jaker</arg>
+<status status="NOT RUN" start="2025-10-24T15:02:37.619415" elapsed="0.000084"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<arg>None</arg>
+<arg>RETURN</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" start="2025-10-24T15:02:37.619770" elapsed="0.000065"/>
+</kw>
+<doc>This test case logs into Gmail and performs actions.</doc>
+<tag>Gmail</tag>
+<status status="FAIL" start="2025-10-24T15:02:30.880238" elapsed="6.742358">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+</status>
+</test>
+<status status="FAIL" start="2025-10-24T15:02:29.513442" elapsed="8.110286"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Gmail</stat>
+</tag>
+<suite>
+<stat name="Gmail" id="s1" pass="0" fail="1" skip="0">Gmail</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-24T15:02:37.494863" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+</msg>
+</errors>
+</robot>

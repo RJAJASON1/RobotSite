@@ -1,0 +1,60 @@
+==============================================================================
+Gmail                                                                         
+==============================================================================
+login to Gmail :: This test case logs into Gmail and performs acti... [ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+
+| FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=141.0.3537.92)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff650252605+51877]
+	GetHandleVerifier [0x0x7ff650252664+51972]
+	GetHandleVerifier [0x0x7ff650408bf5+1847445]
+	(No symbol) [0x0x7ff64ffa0e5f]
+	(No symbol) [0x0x7ff6500374ec]
+	(No symbol) [0x0x7ff65004ed0a]
+	(No symbol) [0x0x7ff650031df3]
+	(No symbol) [0x0x7ff650005b36]
+	(No symbol) [0x0x7ff650004d80]
+	(No symbol) [0x0x7ff650005973]
+	(No symbol) [0x0x7ff6500ce4a5]
+	(No symbol) [0x0x7ff6500ca75d]
+	GetHandleVerifier [0x0x7ff65027ce43+226019]
+	GetHandleVerifier [0x0x7ff65026c011+156849]
+	GetHandleVerifier [0x0x7ff650274509+190889]
+	GetHandleVerifier [0x0x7ff650259744+80868]
+	GetHandleVerifier [0x0x7ff650259893+81203]
+	GetHandleVerifier [0x0x7ff650247e16+8886]
+	BaseThreadInitThunk [0x0x7ffd4c0ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd4d28c53c+44]
+------------------------------------------------------------------------------
+Gmail                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\User\Documents\Brightchamps\Robotframe\RobotSite\results\output.xml
+Log:     C:\Users\User\Documents\Brightchamps\Robotframe\RobotSite\results\log.html
+Report:  C:\Users\User\Documents\Brightchamps\Robotframe\RobotSite\results\report.html
